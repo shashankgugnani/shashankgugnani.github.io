@@ -1,47 +1,68 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-
-Name       : Skeleton 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20130902
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shashank Gugnani</title>
-<meta name="keywords" content="Webpage" />
-<meta name="description" content="Webpage" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<!--<link href="default.css" rel="stylesheet" type="text/css" media="all" />-->
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Academic lineage — Shashank Gugnani</title>
+<meta name="description" content="Doctoral advisor chain and mathematical genealogy." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" />
 </head>
-<body>
-<div id="page" class="container">
-	<div id="header">
-		<div id="logo">
-			<h2><a href="#">Shashank Gugnani</a></h2>
+<body class="page-lineage">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+	<div class="site-header__inner container">
+		<div class="brand">
+			<button type="button" class="brand__photo-btn" data-photo-modal aria-label="View larger profile photo" aria-haspopup="dialog" aria-controls="photo-lightbox">
+				<img class="brand__photo" src="images/shashank.jpg" alt="Portrait of Shashank Gugnani" width="112" height="112" />
+			</button>
+			<a class="brand__link" href="index.html">
+				<span class="brand__name">Shashank Gugnani</span>
+				<span class="brand__title">PhD · Senior Software Development Manager, Oracle</span>
+			</a>
 		</div>
-		<div id="menu">
+		<div class="site-header__end">
+		<a class="nav-link header-cv" href="vita.pdf" download>
+			<svg class="icon icon--nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+			Download CV
+		</a>
+		<nav class="site-nav" aria-label="Primary">
 			<ul>
-				<li class="current_page_item"><a href="index.html" accesskey="1" title="home">Home</a></li>
-				<li><a href="publications.html" accesskey="2" title="publications">Publications</a></li>
-				<li><a href="contact.html" accesskey="3" title="contact">Contact Me</a></li>
+				<li>
+					<a class="nav-link" href="index.html">
+						<svg class="icon icon--nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+						Home
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="publications.html">
+						<svg class="icon icon--nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+						Publications
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="contact.html">
+						<svg class="icon icon--nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+						Contact
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="trivia.html" aria-current="page">
+						<svg class="icon icon--nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+						Academic Lineage
+					</a>
+				</li>
 			</ul>
+		</nav>
 		</div>
 	</div>
-	<div id="main">
-		<div id="welcome">
-			<div class="title">
-				<h2>My Academic Lineage</h2>
-			</div>
+</header>
+<main id="main" class="main-content container">
+	<h1 class="page-title">Academic lineage</h1>
+	<p class="page-lead">Doctoral advisor chain.</p>
+	<article class="content-card content-card--wide lineage-card">
 			<ul style='margin-top:0in' type=disc>
 			 <li class=MsoNormal style='margin-top:.1pt;margin-bottom:.1pt;mso-list:l1 level1 lfo2;
 			     tab-stops:list .5in'><span style='font-size:12.0pt;"'><a
@@ -244,28 +265,27 @@ Released   : 20130902
 			  </ul>
 			 </ul>
 			</ul>
-		</div>
-		<div id="copyright">
-			<span>&copy; Shashank Gugnani. All rights reserved. </span>
+	</article>
+</main>
+<footer class="site-footer container">
+	<p>&copy; Shashank Gugnani</p>
+</footer>
+<dialog id="photo-lightbox" class="photo-lightbox" aria-label="Profile photo">
+	<div class="photo-lightbox__scrim">
+		<div class="photo-lightbox__panel">
+			<button type="button" class="photo-lightbox__close" aria-label="Close dialog">&times;</button>
+			<img class="photo-lightbox__img" src="images/shashank.jpg" alt="Portrait of Shashank Gugnani" width="800" height="800" />
 		</div>
 	</div>
-</div>
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=11199636; 
-var sc_invisible=1; 
-var sc_security="6bad5dee"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
+</dialog>
+<script src="site.js"></script>
+<script>
+var sc_project=11199636;
+var sc_invisible=1;
+var sc_security="6bad5dee";
+var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></"+"script>");
 </script>
-<noscript><div class="statcounter"><a title="hit counter"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11199636/0/6bad5dee/1/" alt="hit
-counter"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+<noscript><div class="statcounter"><a title="hit counter" href="http://statcounter.com/" target="_blank" rel="noopener noreferrer"><img class="statcounter" src="//c.statcounter.com/11199636/0/6bad5dee/1/" alt="hit counter" width="1" height="1" /></a></div></noscript>
 </body>
 </html>
